@@ -1,0 +1,17 @@
+#header{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    background-color: rgb(44, 41, 41);
+    color: white
+}
+#search{
+    font-size: 20px;
+    margin-left: 20px;
+   
+}
+#searchBar{
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+}
