@@ -28,3 +28,10 @@
     background-color: rgb(0, 89, 255);
     color: white
 }
+#cityName{
+    font-size: 15px;
+    font-weight: bold;
+}
+#history{
+    margin-left: 20px;
+}
