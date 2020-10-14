@@ -1,8 +1,9 @@
 function fetchWeather(cityName){
     
     $.ajax({
-        url: "api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=d9a215e06eb15a76cea4b716478cd648",
+        url: "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=d9a215e06eb15a76cea4b716478cd648",
         method: "GET",
+        dataType: "JSON",
     }).then(function(response) {
 
         console.log(response)
