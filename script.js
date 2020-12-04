@@ -8,10 +8,9 @@ function fetchWeather(cityName){
 
         console.log(response)
         $("#cityName").text(response.name)
-        $("#temp").text(response.main.temp)
-        $("#humidity").text(response.main.humidity)
-        $("#windSpeed").text(response.wind.speed)
-        $("#UV").text(response)
+        $("#temp").text(((response.main.temp-273.15)*9/5 + 32) + " degrees F")
+        $("#humidity").text((response.main.humidity)+ "%")
+        $("#windSpeed").text((response.wind.speed) + " mph")
 
     })
 
